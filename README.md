@@ -75,7 +75,7 @@ I conducted the following analysis (see [Game Purchasing Analysis](PyCitySchools
 
 I analyzed the district-wide standardized test results. The source data contained student's math and reading scores, as well as various information on the schools they attend. I  aggregated the data to and showcase obvious trends in school performance.
 
-I conducted the following analysis (see ![challenge 2](Images/holder))
+I conducted the following analysis (see [challenge 2](PyCitySchools/PyCitySchools_starter.ipynb)
 
 ### District Summary
 
