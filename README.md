@@ -1,14 +1,14 @@
-# Pandas Challenge
+# Pandas Analysis Challenge
 
 ## Challenge 1: Heroes of Pymoli
 
 ![Fantasy](Images/Fantasy.png)
 
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+I was assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
 
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
+My task was to generate a report that breaks down the game's purchasing data into meaningful insights using the Pandas Library and Jupyter Notebook.
 
-Your final report should include each of the following:
+I conducted the following analysis (see ![challenge 1](Images/holder))
 
 ### Player Count
 
@@ -45,7 +45,7 @@ Your final report should include each of the following:
 
 ### Top Spenders
 
-* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+* Identified the the top 5 spenders in the game by total purchase value, then list (in a table):
   * SN
   * Purchase Count
   * Average Purchase Price
@@ -53,7 +53,7 @@ Your final report should include each of the following:
 
 ### Most Popular Items
 
-* Identify the 5 most popular items by purchase count, then list (in a table):
+* Identified the 5 most popular items by purchase count, then list (in a table):
   * Item ID
   * Item Name
   * Purchase Count
@@ -62,33 +62,24 @@ Your final report should include each of the following:
 
 ### Most Profitable Items
 
-* Identify the 5 most profitable items by total purchase value, then list (in a table):
+* Identified the 5 most profitable items by total purchase value, then list (in a table):
   * Item ID
   * Item Name
   * Purchase Count
   * Item Price
   * Total Purchase Value
 
-As final considerations:
-
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of three observable trends based on the data.
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
-
 ## Challenge 2: PyCitySchools
 
 ![Education](Images/education.png)
 
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
+I analyzed the district-wide standardized test results. The source data contained student's math and reading scores, as well as various information on the schools they attend. I  aggregated the data to and showcase obvious trends in school performance.
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
-
-Your final report should include each of the following:
+I conducted the following analysis (see ![challenge 2](Images/holder))
 
 ### District Summary
 
-* Create a high level snapshot (in table form) of the district's key metrics, including:
+* Created a high level snapshot (in table form) of the district's key metrics, including:
   * Total Schools
   * Total Students
   * Total Budget
@@ -100,7 +91,7 @@ Your final report should include each of the following:
 
 ### School Summary
 
-* Create an overview table that summarizes key metrics about each school, including:
+* Created an overview table that summarizes key metrics about each school, including:
   * School Name
   * School Type
   * Total Students
@@ -114,7 +105,7 @@ Your final report should include each of the following:
 
 ### Top Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
+* Created a table that highlights the top 5 performing schools based on % Overall Passing. Include:
   * School Name
   * School Type
   * Total Students
@@ -128,19 +119,19 @@ Your final report should include each of the following:
 
 ### Bottom Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+* Created a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
 
 ### Math Scores by Grade\*\*
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* Created a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ### Reading Scores by Grade
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* Created a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ### Scores by School Spending
 
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
+* Created a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
   * Average Math Score
   * Average Reading Score
   * % Passing Math (The percentage of students that passed math.)
@@ -149,15 +140,8 @@ Your final report should include each of the following:
 
 ### Scores by School Size
 
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+* Repeated the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
 
 ### Scores by School Type
 
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
-
-As final considerations:
-
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
+* Repeated the above breakdown, but this time group schools based on school type (Charter vs. District).
