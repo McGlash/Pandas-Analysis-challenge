@@ -8,7 +8,7 @@ I was assigned the task of analyzing the data for their most recent fantasy game
 
 My task was to generate a report that breaks down the game's purchasing data into meaningful insights using the Pandas Library and Jupyter Notebook.
 
-I conducted the following analysis (see [Game Purchasing Analysis](Pandas-Analysis-challenge/PyCitySchools/PyCitySchools_starter.ipynb))
+I conducted the following analysis (see [Game Purchasing Analysis](PyCitySchools/PyCitySchools_starter.ipynb))
 
 ### Player Count
 
