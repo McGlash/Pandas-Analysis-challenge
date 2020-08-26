@@ -8,7 +8,7 @@ I was assigned the task of analyzing the data for their most recent fantasy game
 
 My task was to generate a report that breaks down the game's purchasing data into meaningful insights using the Pandas Library and Jupyter Notebook.
 
-I conducted the following analysis (see [Game Purchasing Analysis](PyCitySchools/PyCitySchools_starter.ipynb))
+I conducted the following analysis (see [Game Purchasing Analysis](HeroesOfPymoli/HeroesOfPymoli_Analysis.ipynb)
 
 ### Player Count
 
@@ -75,7 +75,7 @@ I conducted the following analysis (see [Game Purchasing Analysis](PyCitySchools
 
 I analyzed the district-wide standardized test results. The source data contained student's math and reading scores, as well as various information on the schools they attend. I  aggregated the data to and showcase obvious trends in school performance.
 
-I conducted the following analysis (see [challenge 2](PyCitySchools/PyCitySchools_starter.ipynb)
+I conducted the following analysis (see [Standardized Test Analysis](PyCitySchools/PyCitySchools_starter.ipynb)
 
 ### District Summary
 
